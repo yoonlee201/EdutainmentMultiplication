@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		58BBF65F2A585AFB00225FDA /* MultiplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF65E2A585AFB00225FDA /* MultiplicationApp.swift */; };
-		58BBF6612A585AFB00225FDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF6602A585AFB00225FDA /* ContentView.swift */; };
 		58BBF6632A585AFD00225FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BBF6622A585AFD00225FDA /* Assets.xcassets */; };
 		58BBF6672A585AFD00225FDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BBF6662A585AFD00225FDA /* Preview Assets.xcassets */; };
+		58BBF66E2A585B2200225FDA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF66D2A585B2200225FDA /* Home.swift */; };
+		58BBF6722A585BE100225FDA /* GameSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF6712A585BE100225FDA /* GameSet.swift */; };
+		58BBF6752A585EEC00225FDA /* GamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF6742A585EEC00225FDA /* GamePlay.swift */; };
+		58BBF6772A58840C00225FDA /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF6762A58840C00225FDA /* GridStack.swift */; };
+		58BBF67B2A58851B00225FDA /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF67A2A58851B00225FDA /* NumberPad.swift */; };
+		58BBF6802A58DD7100225FDA /* CalculatorPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF67F2A58DD7100225FDA /* CalculatorPad.swift */; };
+		58BBF6832A58DDED00225FDA /* TimeTableSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF6822A58DDED00225FDA /* TimeTableSet.swift */; };
+		58BBF6852A58DF3B00225FDA /* TimeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BBF6842A58DF3B00225FDA /* TimeTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58BBF65B2A585AFB00225FDA /* Multiplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BBF65E2A585AFB00225FDA /* MultiplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationApp.swift; sourceTree = "<group>"; };
-		58BBF6602A585AFB00225FDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58BBF6622A585AFD00225FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58BBF6642A585AFD00225FDA /* Multiplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Multiplication.entitlements; sourceTree = "<group>"; };
 		58BBF6662A585AFD00225FDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58BBF66D2A585B2200225FDA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		58BBF6712A585BE100225FDA /* GameSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSet.swift; sourceTree = "<group>"; };
+		58BBF6742A585EEC00225FDA /* GamePlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlay.swift; sourceTree = "<group>"; };
+		58BBF6762A58840C00225FDA /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		58BBF67A2A58851B00225FDA /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
+		58BBF67F2A58DD7100225FDA /* CalculatorPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPad.swift; sourceTree = "<group>"; };
+		58BBF6822A58DDED00225FDA /* TimeTableSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableSet.swift; sourceTree = "<group>"; };
+		58BBF6842A58DF3B00225FDA /* TimeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +66,9 @@
 		58BBF65D2A585AFB00225FDA /* Multiplication */ = {
 			isa = PBXGroup;
 			children = (
+				58BBF6792A5884B000225FDA /* Reference */,
+				58BBF6782A58849100225FDA /* UserInterface */,
 				58BBF65E2A585AFB00225FDA /* MultiplicationApp.swift */,
-				58BBF6602A585AFB00225FDA /* ContentView.swift */,
 				58BBF6622A585AFD00225FDA /* Assets.xcassets */,
 				58BBF6642A585AFD00225FDA /* Multiplication.entitlements */,
 				58BBF6652A585AFD00225FDA /* Preview Content */,
@@ -67,6 +82,44 @@
 				58BBF6662A585AFD00225FDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		58BBF6732A585EC400225FDA /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				58BBF6712A585BE100225FDA /* GameSet.swift */,
+				58BBF6742A585EEC00225FDA /* GamePlay.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		58BBF6782A58849100225FDA /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				58BBF66D2A585B2200225FDA /* Home.swift */,
+				58BBF6732A585EC400225FDA /* Game */,
+				58BBF6812A58DDC400225FDA /* TimeTable */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		58BBF6792A5884B000225FDA /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				58BBF67F2A58DD7100225FDA /* CalculatorPad.swift */,
+				58BBF67A2A58851B00225FDA /* NumberPad.swift */,
+				58BBF6762A58840C00225FDA /* GridStack.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		58BBF6812A58DDC400225FDA /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				58BBF6822A58DDED00225FDA /* TimeTableSet.swift */,
+				58BBF6842A58DF3B00225FDA /* TimeTable.swift */,
+			);
+			path = TimeTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58BBF6612A585AFB00225FDA /* ContentView.swift in Sources */,
+				58BBF6752A585EEC00225FDA /* GamePlay.swift in Sources */,
+				58BBF6852A58DF3B00225FDA /* TimeTable.swift in Sources */,
+				58BBF67B2A58851B00225FDA /* NumberPad.swift in Sources */,
+				58BBF6832A58DDED00225FDA /* TimeTableSet.swift in Sources */,
+				58BBF6772A58840C00225FDA /* GridStack.swift in Sources */,
+				58BBF66E2A585B2200225FDA /* Home.swift in Sources */,
+				58BBF6802A58DD7100225FDA /* CalculatorPad.swift in Sources */,
+				58BBF6722A585BE100225FDA /* GameSet.swift in Sources */,
 				58BBF65F2A585AFB00225FDA /* MultiplicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
